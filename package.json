@@ -1,25 +1,28 @@
 {
   "name": "graph.ql",
-  "version": "2.0.2",
+  "version": "3.0.2",
   "description": "Faster and simpler technique for creating and querying GraphQL schemas",
+  "license": "MIT",
   "keywords": [
     "graphql",
     "schema",
     "simple",
     "create"
   ],
-  "author": "Matthew Mueller <mattmuelle@gmail.com>",
+  "author": "Chetabahana <chetabahana@gmail.com>",
+  "developer": "Matthew Mueller <mattmuelle@gmail.com>",
   "repository": {
     "type": "git",
+    "url": "https://github.com/chetabahana/graph.ql",
     "url": "git://github.com/MatthewMueller/graph.ql.git"
   },
   "dependencies": {
-    "co": "4.6.0",
-    "debug": "^2.2.0",
-    "graphql": "0.9.1"
+    "co": "latest",
+    "debug": "latest",
+    "graphql": "latest"
   },
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "mocha": "latest"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
