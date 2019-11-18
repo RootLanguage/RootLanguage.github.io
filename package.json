@@ -1,6 +1,6 @@
 {
   "name": "graph.ql",
-  "version": "3.0.2",
+  "version": "3.0.1",
   "description": "Faster and simpler technique for creating and querying GraphQL schemas",
   "keywords": [
     "graphql",
@@ -16,12 +16,12 @@
     "url": "git://github.com/MatthewMueller/graph.ql.git"
   },
   "dependencies": {
-    "co": "latest",
-    "debug": "latest",
-    "graphql": "latest"
+    "co": "4.6.0",
+    "debug": "^4.1.1",
+    "graphql": "^14.5.8"
   },
   "devDependencies": {
-    "mocha": "latest"
+    "mocha": "^6.2.2"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
