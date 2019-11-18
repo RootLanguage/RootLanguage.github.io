@@ -17,12 +17,12 @@
     "url": "git://github.com/MatthewMueller/graph.ql.git"
   },
   "dependencies": {
-    "co": "4.6.0",
-    "debug": "^4.1.1",
+    "co": "latest",
+    "debug": "latest",
     "graphql": "latest"
   },
   "devDependencies": {
-    "mocha": "^6.2.2"
+    "mocha": "latest"
   },
   "scripts": {
     "test": "./node_modules/.bin/mocha"
