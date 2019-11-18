@@ -2,6 +2,7 @@
   "name": "graph.ql",
   "version": "3.0.2",
   "description": "Faster and simpler technique for creating and querying GraphQL schemas",
+  "license": "MIT",
   "keywords": [
     "graphql",
     "schema",
