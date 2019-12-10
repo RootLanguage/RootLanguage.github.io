@@ -31,6 +31,7 @@ jobs:
       run: |
         sudo npm install npm@latest -g
         npm install -f
+        npm list --depth=0
       env:
         CI: true
         TAG_NAME: ubuntu
