@@ -1,5 +1,5 @@
 # Deploy GitHub Pages
-name: Build and deploy ₠Quantum site
+name: Build and deploy eQuantum site
 
 # 💎 Runs on workflow_run.conclusion
 on:
@@ -30,7 +30,7 @@ jobs:
              github.ref_name != 'main' && 'windows-latest' || 'self-hosted') }}
     steps:
       - name: 📂 Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           submodules: recursive
           token: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
